@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        </div>
+    <div class="pokemonContainer">
+
+        <form class="search">
+            <input type="text" class="searchBtn" placeholder="Enter Pokemon ID">
+            <button type="submit" class="submitBtn"> Generate</button>
+        </form>
+
+        <div class="pokemonCard">
+            <div class="cardHeader">
+                <h1 class="name">Pikachu</h1>
+                <h3 class="hp"><span>HP:</span>80</h3>
+            </div>
+            <div class="cardImage">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="POZA POKEMON">
+
+            </div>
+            <div class="cardBody">
+                <div class="mic">
+                    <h3 class="ability">Ability: Lightning-rod</h3>
+                </div>
+                <div class="cardBodyName">
+                    <h3>Speed</h3>
+                    <h3>Attack</h3>
+                    <h3>Defense</h3>
+                </div>
+                <div class="cardBodyValue">
+                    <h4 class="speed">80</h4>
+                    <h4 class="attack">50</h4>
+                    <h4 class="defense">60</h4>
+                </div>
+            </div>
+            <div class="paraghph">
+                <p>Flip a coin. If is heads, your <em><strong>TAG TEAM</strong> Pokemon take <em class="demage">30 </em> less damage from your opponent's attacks.If is tails, take only 10.</em></p>
+                <h6>Pokemon Card Number: <em class="numberCard">25</em> ⭐ </h6>
+                <h6> © Vintilescu Andreea-Alexandra</h6>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
